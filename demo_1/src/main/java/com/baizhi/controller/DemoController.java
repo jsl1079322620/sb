@@ -3,7 +3,6 @@ package com.baizhi.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 //@RestController  // 等价于 = @Controller + @ResponseBody 作用：将controller中所有的方法的返回值都转化为json进行响应
